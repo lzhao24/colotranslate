@@ -70,5 +70,5 @@ for lang in target_languages:
     input_file['Simplified'] = results.apply(lambda x: x[0])
     input_file['Translated o1'] = results.apply(lambda x: x[1])
     input_file['Translated Google'] = results.apply(lambda x: x[2])
-    input_file.to_csv(f"colo_outputs_{lang}.csv", index=False) # REPLACE FILE NAME
+    input_file.to_csv(f"OUTPUT_FILE_NAME_{lang}.csv", index=False) # REPLACE FILE NAME
     print("Processing complete.")
