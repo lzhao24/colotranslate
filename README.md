@@ -1,5 +1,4 @@
 # colotranslate
-*derivative of mazaneesh/RadTranslate*
 
 ColoTranslate is a Python-based tool designed to simplify colonoscopy reports using GPT o1-preview and translate them into multiple languages using both GPT o1-preview and Google Translate.
 
